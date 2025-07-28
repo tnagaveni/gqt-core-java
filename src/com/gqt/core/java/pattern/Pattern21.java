@@ -1,0 +1,23 @@
+package com.gqt.core.java.pattern;
+import java.util.Scanner;
+public class Pattern21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner (System.in);
+		System.out.println("Enter the count");
+		int n= sc.nextInt();
+		for( int i=n;i>0;i--) {
+			for (int j=1;j<=i;j++) {
+				System.out.print("_"+" ");
+			}
+				for (int k=i;k<=n;k++) {
+					System.out.print("#"+" ");
+			}
+			System.out.println();
+		}
+		sc.close();
+
+	}
+
+}
