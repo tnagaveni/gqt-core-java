@@ -48,9 +48,8 @@ public class Pattern27 {
 			}
 			
 			System.out.println();
-		}
+		}sc.close();
 
 
-	}
-
+	} 
 }
