@@ -102,13 +102,7 @@ public class PatternName {
 					System.out.print("  ");
 				}
 			}
-			System.out.println(" ");
-			
-			
-			
-			
-			
-			
+			System.out.println(" ")		
 
 		}sc.close();
 	
